@@ -32,10 +32,10 @@ summary(bmi)
 skewness(data1$bmi)
 kurtosis(data1$bmi)
 skewness(data1$insulin)
-hist(insulin)
-boxplot(bmi)
-boxplot(insulin)$out
-boxplot(bmi)$out
+hist(data1$insulin)
+boxplot(data1$bmi)
+boxplot(data1$insulin)$out
+boxplot(data1$bmi)$out
 which(bmi %in% boxplot(bmi)$out)
 
 box
